@@ -1,0 +1,302 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    background: #2C2C2C;
+    font-family: Nico Moji;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: 9vh;
+    width: 100%;
+    position: fixed;
+    background-color: #2C2C2C;
+    z-index: 1;
+    height: 10vh;
+}
+
+.nav__nav {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    gap: 6vh;
+    font-size: 2.5vh;
+}
+
+a:hover {
+    color: #00C4F0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    gap: 1vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.3vh;
+    padding-right: 18vh;
+    font-size: 2.5vh;
+}
+
+.icon img {
+    width: auto;
+    height: 8vh;
+}
+
+.header-picture {
+    width: 55vh;
+    height: auto;
+    margin: 5vh;
+    margin-left: 15vh;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.header-h2 {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.header-h1 {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 9vh;
+    font-weight: 400;
+}
+
+.header-text {
+    color: #fff;
+    width: 70vh;
+    height: auto;
+    font-family: Roboto;
+}
+
+.header__button {
+    font-family: Nico Moji;
+    color: black;
+    background: linear-gradient(#E2A300, #E29500);
+    box-shadow: 0vh 0.5vh 1vh #E29E007A;
+    width: 200px;
+    height: 35px;
+    border-radius: 1vh;
+    font-size: 20px;    
+    border: 0;
+    transition: text-shadow 0.3s ease;
+
+
+}
+
+.header__button:hover {
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+main {
+    background: #3E3E3E;
+    width: 100%;
+}
+
+.about__author {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 7vh;
+}
+
+.main__title {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 6vh;
+    font-weight: 400;
+    margin: 5vh;
+    color: #fff;
+    text-align: center;
+}
+
+.ava {
+    height: 23vw;
+    width: 23vw;
+    border-radius: 50%;
+    border: 7.7vh solid #000000;
+    box-shadow: 0 0 14vh #00C4F06B;
+}
+
+li {
+    list-style: none;
+}
+
+.skills {
+    font-size: 4vh;
+    width: 30vw;
+    color: #E4E4E4;
+}
+
+.line {
+    height: 1.3vh;
+    background: #ffffff;
+}
+
+.line::before {
+    content: "";
+    display: block;
+    width: 65%;
+    height: 100%;
+    background: #2C2C2C;
+}
+
+.line2 {
+    height: 1.3vh;
+    background: #ffffff;
+}
+
+.line2::before {
+    content: "";
+    display: block;
+    width: 23%;
+    height: 100%;
+    background: #2C2C2C;
+}
+
+.line3 {
+    height: 1.3vh;
+    background: #ffffff;
+}
+
+.line3::before {
+    content: "";
+    display: block;
+    width: 5%;
+    height: 100%;
+    background: #2C2C2C;
+}
+
+li {
+    margin: 3vh;
+}
+
+.profile {
+    position: relative;
+}
+
+.mySkills {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 7vh;
+}
+
+.kart1,
+.kart2,
+.kart3,
+.kart4 {
+    position: absolute;
+    width: 16%;
+    height: 16%;
+    border-radius: 50%;
+}
+
+.kart1 {
+    left: 74%;
+}
+
+.kart2 {
+    right: 80%;
+    top: 8%;
+}
+
+.kart3 {
+    right: 93%;
+    top: 40%;
+}
+
+.kart4 {
+    right: 82%;
+    top: 72%;
+}
+
+.video__size {
+    width: 80vw;
+    height: 90vh;
+}
+
+.video {
+    padding: 5%;
+    background: #2C2C2C;
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    padding-bottom: 14vh;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #3E3E3E;
+    justify-content: center;
+    margin-bottom: 6.7vh;
+    margin: 5vh;
+
+    gap: 4.5vh;
+    max-width: 2400px;
+    height: auto;
+}
+
+.gallery__picture {
+    width: 85vw;
+    place-self: center;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    place-items: center;
+    background: #2C2C2C;
+    color: #E4E4E4;
+    margin: 6.7vh;
+}
+
+.footer-h1 {
+    font-size: 3.8vh;
+    font-weight: 400;
+}
+
+.footer-h2 {
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+.footer__icon {
+    width: 6.5vh;
+    height: 6.5vh;
+    border-radius: 50%;
+    margin-right: 1.3vh;
+}
+
+.icon__discord {
+    width: 7vh;
+    height: 7vh;
+}
+
+.dropdown {
+    display: none;
+}

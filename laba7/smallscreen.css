@@ -1,0 +1,55 @@
+.icon{
+    padding-left: 8vw;
+}
+.dropdown{
+    padding-right: 13vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 10vh;
+}
+.header-text{
+    display: grid;
+    place-items: center;
+}
+.header-h1{
+    text-align: center;
+}
+.header-h2{
+    text-align: center;
+}
+.ava{
+    width: 40vw;
+    border: 4.3vh solid #00C4F0;
+}
+.main__title{
+    margin-left: 10vw;
+}
+.skills {
+    width: 80vw;
+}
+footer{
+    grid-template-columns: 1fr;
+    
+}
+.footer-h1{
+    width: 50vw;
+    text-align: center;
+}
+.footer-h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer__icon{
+    margin-left: 5px;
+}
+.icon__discord{
+    margin-inline-start: 3px;
+}

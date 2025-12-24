@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/73c00071d90ecfb78bf0ccdeda529307?family=Nico+Moji" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 20000px)" href="wewe.css">
+    <link rel="stylesheet" media="screen and (max-width: 834px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 390px)" href="smallscreen.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laba</title>
+</head>
+
+<body>
+    <nav>
+        <div class="icon"><img src="icon.png" alt=".|."><span> Andrew</span></div>
+        <div class="nav__nav">
+            <a href="#header" class="nav-text">Главная</a>
+            <a href="#main" class="nav-text">Об авторе</a>
+            <a href="#video" class="nav-text">Видео</a>
+            <a href="#gallery" class="nav-text">Галерея</a>
+            <a href="#footer" class="nav-text">Контакты</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><img src="icon_list.png" width="40vw" height="auto"> </button>
+            <div class="dropdown-content">
+                <a href="#header">Главная</a>
+                <a href="#main">Об авторе</a>
+                <a href="#video">Видео</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#footer">Контакты</a>
+            </div>
+        </div>
+    </nav>
+    <header id="header">
+        <img src="main2.png" class="header-picture">
+        <div class="header-text">
+            <h1 class="header-h1">Пресняков Андрей</h1>
+            <h2 class="header-h2">Изучаю Java, Spring, front-end и back-end разработкой уже год.
+                Для подробностей обращаться:</h2>
+            <button target="_blank" onclick="window.location.href='https://t.me/iTeizy';" class="header__button">Tg
+                link</button>
+        </div>
+    </header>
+    <main id="main">
+        <h1 class="main__title">Об авторе</h1>
+        <div class="about__author">
+            <div class="skills">
+                <ul>
+                    <li class="mySkills">Мои навыки
+                    </li>
+                    <li>Java
+                        <div class="line"></div>
+                    </li>
+                    <li>Spring
+                        <div class="line3"></div>
+                    </li>
+                    <li>HTML
+                        <div class="line2"></div>
+                    </li>
+                    <li>CSS<div class="line2"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile">
+                <img src="ava.jpg" class="ava">
+                <img src="star.png" class="kart1">
+                <img src="star.png" class="kart2">
+                <img src="star.png" class="kart3">
+                <img src="star.png" class="kart4">
+            </div>
+        </div>
+        <div class="video">
+            <h1 id="video" class="main__title">Видео</h1>
+            <div class="video__source">
+                <video class="video__size" controls muted>
+                    <source src="Rick.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <h1 id="gallery" class="main__title">Галерея</h1>
+        <div class="gallery">
+            <img src="first-picture.jpg" alt="1" class="gallery__picture box1">
+            <img src="second-picture.jpg" alt="2" class="gallery__picture box2">
+            <img src="third-picture.jpg" alt="3" class="gallery__picture box3">
+            <img src="fourth-picture.jpg" alt="4" class="gallery__picture box4">
+            <img src="fifth-picture.png" alt="5" class="gallery__picture box5">
+            <img src="sixth-picture.png" alt="6" class="gallery__picture box6">
+        </div>
+    </main>
+    <footer id="footer">
+        <div>
+            <h1 class="footer-h1">Андрей Пресняков</h1>
+            <h2 class="footer-h2"> 2026. Все права защищены.</h2>
+        </div>
+        <div class="footer-icon">
+            <a href="https://t.me/iTeizy"><img src="tg.png" alt="1" class="footer__icon"></a>
+            <a href="https://vk.com/iteizy"><img src="vk.png" alt="2" class="footer__icon"></a>
+            <a href="https://discord.com/iteizyy"><img src="ds.png" alt="3" class="icon__discord"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
